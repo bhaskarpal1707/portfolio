@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Bhaskar Pal | Portfolio</title>
-    <meta content="" name="description" content = "Bhaskar Pal's Portfolio"/>
+    <meta content="" name="description" content="Bhaskar Pal's Portfolio" />
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
@@ -157,7 +157,10 @@
                 ></a>
               </div>
 
-              <a href="https://drive.google.com/file/d/1hvXjuT0jb_DFS5dHg31bkzXDbpqUcGX8/view?usp=drive_link" class="resume-btn-primary">
+              <a
+                href="https://drive.google.com/file/d/1hvXjuT0jb_DFS5dHg31bkzXDbpqUcGX8/view?usp=drive_link"
+                class="resume-btn-primary"
+              >
                 <svg class="download-icon" viewBox="0 0 24 24">
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                   <polyline points="7,10 12,15 17,10" />
@@ -2399,8 +2402,9 @@
 
             <div class="col-lg-8">
               <form
-                action="forms/contact.php"
+                action="https://script.google.com/macros/s/AKfycbwhL1nERhrVhyn9twFzVxtPv4FuYWZuPh1e8n6mrYUSe67NpETcjHyJDwINzxdvQ_Vrvg/exec"
                 method="post"
+                id="contact-form"
                 class="php-email-form"
                 data-aos="fade-up"
                 data-aos-delay="200"
@@ -2453,7 +2457,9 @@
                       Your message has been sent. Thank you!
                     </div>
 
-                    <button type="submit">Send Message</button>
+                    <button id="submit_contact_form_btn" type="submit">
+                      Send Message
+                    </button>
                   </div>
                 </div>
               </form>
@@ -2472,7 +2478,12 @@
           "An independent and self-motivated hardworkin individual dedicated
           towards goals."
         </p>
-        <button onclick="window.open('https://drive.google.com/file/d/1hvXjuT0jb_DFS5dHg31bkzXDbpqUcGX8/view?usp=drive_link', '_blank')" class="download_resume_btn_2">Download Resume</button>
+        <button
+          onclick="window.open('https://drive.google.com/file/d/1hvXjuT0jb_DFS5dHg31bkzXDbpqUcGX8/view?usp=drive_link', '_blank')"
+          class="download_resume_btn_2"
+        >
+          Download Resume
+        </button>
         <div class="social-links d-flex justify-content-center">
           <a href="https://www.linkedin.com/in/bhaskar-pal-2k02/"
             ><i class="bi bi-linkedin"></i
@@ -2498,9 +2509,10 @@
             <!-- You can delete the links only if you've purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Designed by
-            <a href="">Bhaskar Pal</a> Distribuited by
-            <a href="">Bhaskar Pal</a>
+            Designed & Developed by
+            <a href="https://www.linkedin.com/in/bhaskar-pal-2k02/"
+              >Bhaskar Pal</a
+            >
           </div>
         </div>
       </div>
@@ -2533,5 +2545,6 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/projects.js"></script>
     <script src="assets/js/certificate.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
   </body>
 </html>

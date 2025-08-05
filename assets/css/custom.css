@@ -629,3 +629,7 @@
 .download_resume_btn_2:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
+
+.hidden {
+  display: none !important;
+}
