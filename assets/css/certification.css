@@ -94,6 +94,12 @@
   gap: 1.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .certificate_container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
 .open_cert_btn {
   background-color: #0563bb !important;
 }

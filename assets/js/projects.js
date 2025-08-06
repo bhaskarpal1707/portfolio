@@ -98,7 +98,7 @@ function renderProjects(projects) {
 
     projectItem.innerHTML = `
         <div class="image-wrapper">
-          <img src="${project.image}" alt="" class="lazy-image img-fluid" />
+          <img src="${project.image}" loading="lazy" alt="" class="lazy-image img-fluid" />
         </div>
         
         <div class="project-info">

@@ -43,6 +43,7 @@ function showCertificates() {
       <img
         src="${certificate.image}"
         class="portfolio-card-img"
+        loading="lazy"
         alt="${certificate.name}"
       />
       <span class="portfolio-card-overlay">

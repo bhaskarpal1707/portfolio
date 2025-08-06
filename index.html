@@ -119,7 +119,7 @@
     <main class="main">
       <!-- Hero Section -->
       <section id="hero" class="hero section light-background">
-        <img src="assets/img/Image 1.jpg" alt="" />
+        <img src="assets/img/Image 1.jpg" alt="" loading="lazy"/>
 
         <div class="container" data-aos="zoom-out">
           <div class="row justify-content-center">
@@ -258,6 +258,7 @@
                   class="img-fluid"
                   src="assets/img/image 2.jpg"
                   alt=""
+                  loading="lazy"
                   height="512"
                   width="512"
                 />
@@ -292,32 +293,42 @@
                 <p class="">Here's how I create impact:</p>
                 <ul>
                   <li>
-                    <i class="bi bi-check2-circle"></i>
-                    <strong>Visualize Insights:</strong>
+                    <span class="flex">
+                      <i class="bi bi-check2-circle"></i>
+                      <strong>Visualize Insights:</strong>
+                    </span>
                     Crafting intuitive Power BI dashboards that make trends leap
                     off the screen
                   </li>
                   <li>
-                    <i class="bi bi-check2-circle"></i>
-                    <strong>Uncover Hidden:</strong>
+                    <span class="flex">
+                      <i class="bi bi-check2-circle"></i>
+                      <strong>Uncover Hidden:</strong>
+                    </span>
                     Opportunities: Mining data with SQL/Python to reveal growth
                     levers others miss
                   </li>
                   <li>
-                    <i class="bi bi-check2-circle"></i>
-                    <strong>Build Trusted:</strong>
+                    <span class="flex">
+                      <i class="bi bi-check2-circle"></i>
+                      <strong>Build Trusted:</strong>
+                    </span>
                     Foundations: Transforming messy data into clean,
                     analysis-ready models
                   </li>
                   <li>
-                    <i class="bi bi-check2-circle"></i>
-                    <strong>Deliver Actionable:</strong>
+                    <span class="flex">
+                      <i class="bi bi-check2-circle"></i>
+                      <strong>Deliver Actionable:</strong>
+                    </span>
                     Intelligence: Designing reports that turn insights into
                     strategic next steps
                   </li>
                   <li>
-                    <i class="bi bi-check2-circle"></i>
-                    <strong>Predictive Power:</strong>
+                    <span class="flex">
+                      <i class="bi bi-check2-circle"></i>
+                      <strong>Predictive Power:</strong>
+                    </span>
                     Building ML models to predictions and reveal hidden patterns
                   </li>
                 </ul>
@@ -2105,108 +2116,97 @@
       <!-- /About Section -->
 
       <!-- Education Section -->
-      <section id="resume" class="resume section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Education</h2>
-          <p>
-            This section summarizes my formal education qualifications,
-            highlighting a steady progression from secondary to postgraduate
-            studies and reflecting my ongoing commitment to academic growth and
-            professional excellence.
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div data-aos="fade-up" data-aos-delay="100">
-                <h3 class="resume-title">
-                  Master of Computer Applications (MCA)
-                </h3>
-
-                <div class="resume-item pb-0">
-                  <h4>Sister Nivedita University</h4>
-                  <ul>
-                    <li style="font-style: italic">[Sep 2023 - June 2025]</li>
-                    <li>CGPA : <strong>7.96</strong></li>
-                    <li>
-                      <a
-                        href="https://drive.google.com/file/d/1gGVP4eCzIvwUSB4feYYVD3vI8-7dhRsk/view?usp=sharing"
-                        style="text-decoration: none"
-                        >View Result</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+      <div id="resume" class="container">
+        <div class="row d-flex flex-column flex-lg-row">
+          <!-- MCA - First in mobile -->
+          <div class="col-lg-6 mca-section">
+            <div data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">
+                Master of Computer Applications (MCA)
+              </h3>
+              <div class="resume-item">
+                <h4>Sister Nivedita University</h4>
+                <ul>
+                  <li style="font-style: italic">[Sep 2023 - June 2025]</li>
+                  <li>CGPA : <strong>7.96</strong></li>
+                  <li>
+                    <a
+                      href="https://drive.google.com/file/d/1gGVP4eCzIvwUSB4feYYVD3vI8-7dhRsk/view?usp=sharing"
+                    >
+                      View Result
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <!-- Edn Resume Item -->
-
-              <!-- <h3 class="resume-title">Education</h3> -->
-              <div data-aos="fade-up" data-aos-delay="200">
-                <h3 class="resume-title">12th Boards (WBCHSE)</h3>
-                <div class="resume-item">
-                  <h4>Malangapara KCB Institution</h4>
-                  <ul>
-                    <li style="font-style: italic">2020</li>
-                    <li>PERCENTAGE : <strong>77.4%</strong></li>
-                    <li>
-                      <a
-                        href="https://drive.google.com/file/d/1bsX_-FfvwiFkc93iRzhsQYrP1rJA_MRV/view?usp=sharing"
-                        style="text-decoration: none"
-                        >View Result</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- Edn Resume Item -->
             </div>
+          </div>
 
-            <div class="col-lg-6">
-              <div data-aos="fade-up" data-aos-delay="300">
-                <h3 class="resume-title">
-                  Bachelor of Computer Applications (BCA)
-                </h3>
-                <div class="resume-item pb-0">
-                  <h4>Techno Main Salt Lake</h4>
-                  <ul>
-                    <li style="font-style: italic">[Nov 2020 - Jul 2023]</li>
-                    <li>CGPA : <strong>8.99</strong></li>
-                    <li>
-                      <a
-                        href="https://drive.google.com/file/d/1RLdwbKibmqYNIRbPGJE89v3vrfRJCg_u/view?usp=drive_link"
-                        style="text-decoration: none"
-                        >View Result</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+          <!-- BCA - Second in mobile -->
+          <div class="col-lg-6 bca-section">
+            <div data-aos="fade-up" data-aos-delay="300">
+              <h3 class="resume-title">
+                Bachelor of Computer Applications (BCA)
+              </h3>
+              <div class="resume-item">
+                <h4>Techno Main Salt Lake</h4>
+                <ul>
+                  <li style="font-style: italic">[Nov 2020 - Jul 2023]</li>
+                  <li>CGPA : <strong>8.99</strong></li>
+                  <li>
+                    <a
+                      href="https://drive.google.com/file/d/1RLdwbKibmqYNIRbPGJE89v3vrfRJCg_u/view?usp=drive_link"
+                    >
+                      View Result
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <!-- Edn Resume Item -->
+            </div>
+          </div>
 
-              <div data-aos="fade-up" data-aos-delay="300">
-                <h3 class="resume-title">10th Boards (WBBSE)</h3>
-                <div class="resume-item">
-                  <h4>Malangapara KCB Institution</h4>
-                  <ul>
-                    <li style="font-style: italic">2018</li>
-                    <li>PERCENTAGE : <strong>66.6%</strong></li>
-                    <li>
-                      <a
-                        href="https://drive.google.com/file/d/11-8Yp5sBTch6rHP6pEpz8KtyDLtO_i5Y/view?usp=sharing"
-                        style="text-decoration: none"
-                        >View Result</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+          <!-- 12th Boards - Third in mobile -->
+          <div class="col-lg-6 twelve-section">
+            <div data-aos="fade-up" data-aos-delay="200">
+              <h3 class="resume-title">12th Boards (WBCHSE)</h3>
+              <div class="resume-item">
+                <h4>Malangapara KCB Institution</h4>
+                <ul>
+                  <li style="font-style: italic">2020</li>
+                  <li>PERCENTAGE : <strong>77.4%</strong></li>
+                  <li>
+                    <a
+                      href="https://drive.google.com/file/d/1bsX_-FfvwiFkc93iRzhsQYrP1rJA_MRV/view?usp=sharing"
+                    >
+                      View Result
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10th Boards - Fourth in mobile -->
+          <div class="col-lg-6 ten-section">
+            <div data-aos="fade-up" data-aos-delay="300">
+              <h3 class="resume-title">10th Boards (WBBSE)</h3>
+              <div class="resume-item">
+                <h4>Malangapara KCB Institution</h4>
+                <ul>
+                  <li style="font-style: italic">2018</li>
+                  <li>PERCENTAGE : <strong>66.6%</strong></li>
+                  <li>
+                    <a
+                      href="https://drive.google.com/file/d/11-8Yp5sBTch6rHP6pEpz8KtyDLtO_i5Y/view?usp=sharing"
+                    >
+                      View Result
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <!-- /Resume Section -->
 
       <!-- Button trigger modal -->
