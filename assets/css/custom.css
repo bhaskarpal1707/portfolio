@@ -454,13 +454,13 @@
   background-color: #0563bb;
   backdrop-filter: blur(10px);
   color: white;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 23px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   z-index: 2;
